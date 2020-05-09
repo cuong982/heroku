@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="3382" column="50" lean-forward="true" selection-start-line="3382" selection-start-column="50" selection-end-line="3382" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="3379" column="60" lean-forward="true" selection-start-line="3379" selection-start-column="60" selection-end-line="3379" selection-end-column="60" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -290,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="3382" column="50" lean-forward="true" selection-start-line="3382" selection-start-column="50" selection-end-line="3382" selection-end-column="50" />
+        <state relative-caret-position="168">
+          <caret line="3379" column="60" lean-forward="true" selection-start-line="3379" selection-start-column="60" selection-end-line="3379" selection-end-column="60" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

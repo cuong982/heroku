@@ -3373,21 +3373,22 @@ def signin(request):
                 xpass=request.POST.get('txtpass')
                 data=models.ZUser.objects.filter(Q(username=xuser),Q(password=xpass),Q(active=1))
                 if data.count():
-                    request.session['id']=data[0].id
-                    request.session['name']=data[0].name
-                    request.session['kind']=data[0].kind
-                    request.session['phone']=data[0].phone
-                    request.session['address'] = data[0].adress
-                    request.session['email'] = data[0].email
-                    request.session['other_info'] = data[0].other_info
-                    request.session.set_expiry(60)
-                    if request.session['kind']=='citizen':
-                        return redirect('citizenHome')
-                    elif request.session['kind']=='factory':
-                        facilityID = models.Sites.objects.filter(userID_id=request.session['id'])[0].siteid
-                        return redirect('facilitiesDisplay',facilityID)
-                    else:
-                        return redirect('manager',3)
+                    return redirect('citizenHome')
+                    # request.session['id']=data[0].id
+                    # request.session['name']=data[0].name
+                    # request.session['kind']=data[0].kind
+                    # request.session['phone']=data[0].phone
+                    # request.session['address'] = data[0].adress
+                    # request.session['email'] = data[0].email
+                    # request.session['other_info'] = data[0].other_info
+                    # request.session.set_expiry(60)
+                    # if request.session['kind']=='citizen':
+                    #     return redirect('citizenHome')
+                    # elif request.session['kind']=='factory':
+                    #     facilityID = models.Sites.objects.filter(userID_id=request.session['id'])[0].siteid
+                    #     return redirect('facilitiesDisplay',facilityID)
+                    # else:
+                    #     return redirect('manager',3)
                 else:
                     error="Tài khoản hoặc mật khẩu không đúng"
             return render(request,'Home/index.html',{'error':error})
