@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'RbiCloud.wsgi.application'
 DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.mysql',
-         'NAME': '`heroku_4ac83cb6d972cfc`',
+         'NAME': 'heroku_4ac83cb6d972cfc',
          'USER': 'bf80840e448c33',
          'PASSWORD': '333c72b0',
          'HOST': 'us-cdbr-east-06.cleardb.net',
