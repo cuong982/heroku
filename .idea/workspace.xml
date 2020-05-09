@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d180b21-d97f-4c67-9800-dd90e07551a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cloud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RbiCloud/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
+            <state relative-caret-position="921">
               <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
             </state>
           </provider>
@@ -48,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
               </folding>
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="3374" column="24" lean-forward="true" selection-start-line="3374" selection-start-column="24" selection-end-line="3374" selection-end-column="24" />
+            <state relative-caret-position="321">
+              <caret line="3393" column="27" selection-start-line="3393" selection-start-column="27" selection-end-line="3393" selection-end-column="27" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -104,6 +103,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>redirect</find>
+      <find>id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -251,16 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RbiCloud/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Home/Account/sigup_citizen.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -285,20 +275,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/django/test/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="452" column="8" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Home/Account/sigup_citizen.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RbiCloud/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="3374" column="24" lean-forward="true" selection-start-line="3374" selection-start-column="24" selection-end-line="3374" selection-end-column="24" />
+        <state relative-caret-position="321">
+          <caret line="3393" column="27" selection-start-line="3393" selection-start-column="27" selection-end-line="3393" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
