@@ -3368,8 +3368,11 @@ def signin(request):
             elif request.session['kind']=='manager':
                 return redirect('manager',3)
         else:
-            if request.method=='POST':
-                return redirect('manager', 3)
+            try:
+                if request.method=='POST':
+                    return redirect('manager', 3)
+            except Exception as e:
+                print(e)
                 # xuser=request.POST.get('txtuser')
                 # xpass=request.POST.get('txtpass')
                 # data=models.ZUser.objects.filter(Q(username=xuser),Q(password=xpass),Q(active=1))
@@ -3391,7 +3394,8 @@ def signin(request):
                 #         return redirect('manager',3)
                 # else:
                 #     error="Tài khoản hoặc mật khẩu không đúng"
-            return render(request,'Home/index.html',{'error':error})
+
+        return render(request,'Home/index.html',{'error':error})
     except Exception as e:
         print(e)
         raise Http404
